@@ -1,1 +1,0 @@
-#ifndef INDEXEXCEPTION_H#define INDEXEXCEPTION_H#include "Exception.h"class IndexException : public Exception{	virtual void printException();};#endif
