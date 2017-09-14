@@ -1,0 +1,1 @@
+#include "Node.h"#include <iostream>using namespace std;Node::Node(){	next = NULL;	data = 0;}void Node::printNode(){	cout << data << endl;}

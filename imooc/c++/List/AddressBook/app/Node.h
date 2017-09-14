@@ -1,0 +1,1 @@
+#ifndef NODE_H#define NODE_H#include "Person.h"class Node{public:	Node();	Person data;	Node *next;};#endif

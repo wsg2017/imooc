@@ -1,0 +1,1 @@
+#ifndef NODE_H#define NODE_Hclass Node{public:	Node();	int data;	Node *next;	void printNode();};#endif

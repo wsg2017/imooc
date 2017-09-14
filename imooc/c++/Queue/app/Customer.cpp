@@ -1,0 +1,1 @@
+#include "Customer.h"#include <iostream>Customer::Customer(string name, int age){	m_strName = name;	m_iAge = age;}void Customer::printInfo() const{	cout << "printInfo: " << m_strName << m_iAge << endl;}
